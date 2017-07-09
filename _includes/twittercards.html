@@ -1,24 +1,6 @@
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@scottnasello">
-<meta name="twitter:creator" content="@scottnasello">
-<meta twitter version="3.1">
-{% if page.title %}
-  <meta name="twitter:title" content="{{ page.title }}">
-  <meta name="twitter:text:title" content="{{ page.title }}">
-{% else %}
-  <meta name="twitter:title" content="{{ site.title }}">
-  <meta name="twitter:text:title" content="{{ site.title }}">
-{% endif %}
-{% if page.url %}
-  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
-{% endif %}
-{% if page.description %}
-  <meta name="twitter:description" content="{{ page.description }}">
-{% else %}
-  <meta name="twitter:description" content="{{ site.description }}">
-{% endif %}
-{% if page.image %}
-  <meta name="twitter:image:src" content="{{ site.url }}/images/8529173.jpeg/{{ page.image }}">
-{% else %}
-  <meta name="twitter:image:src" content="{{ site.url }}/images/8529173.jpeg">
-{% endif %}
+<!-- Enables twitter cards on posts -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@scottnasello" />
+<meta name="twitter:title" content="{{ page.title }}" />
+<meta name="twitter:description" content="{{ page.excerpt | escape }}" />
+<meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />

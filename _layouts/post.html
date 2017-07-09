@@ -3,16 +3,13 @@ layout: default
 ---
 {% include twittercards.html %}
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
+<div class="post">
+  <h1 class="post-title">{{ page.title | markdownify }}</h1>
+  <time datetime="{{ page.date }}">{{ page.date | date_to_string }}</time>
+  {% if page.aside %}
+  <aside>{{ page.aside | markdownify }}</aside>
+  {% endif %}
+  {{ content }}
+</div>
 
-  <div class="entry">
-    {{ content }}
-  </div>
-
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-
-  {% include disqus.html %}
-</article>
+<p class="meta">Tagged in: {% for tag in page.tags %}<code><a href="/tags/{{ tag | downcase | replace: ' ', '_' }}.html">{{ tag }}</a></code>{% if forloop.last %}{% else %} {% endif %}{% endfor %}</p>

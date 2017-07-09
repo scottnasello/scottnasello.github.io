@@ -1,4 +1,1 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 6ec5254ba8977a6159c42fc77738220fbdc62efe
+My personal blog: [https://scottnasello.github.io](https://scottnasello.github.io)

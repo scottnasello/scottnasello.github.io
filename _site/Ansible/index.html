@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rebuilt my personal mac using Ansible! – Scott Nasello – Engineering Manager</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="During my wife’s recent trip to the east coast I decided I would take my circa 2015 macbook and fully automate it and manage it with a configuration management software.  You  might want to know what kind of sick puppy would do this intentionally {me}.  Here was my thinking:
+
+  As a manager, I don’t get to do as much hands on work as I’d like
+  I’m frustrated by the config drift I have at home…everything is a snowflake
+  I wanted to learn CHEF more on that later
+
+
+" />
+    <meta property="og:description" content="During my wife’s recent trip to the east coast I decided I would take my circa 2015 macbook and fully automate it and manage it with a configuration management software.  You  might want to know what kind of sick puppy would do this intentionally {me}.  Here was my thinking:
+
+  As a manager, I don’t get to do as much hands on work as I’d like
+  I’m frustrated by the config drift I have at home…everything is a snowflake
+  I wanted to learn CHEF more on that later
+
+
+" />
+    
+    <meta name="author" content="Scott Nasello" />
+
+    
+    <meta property="og:title" content="Rebuilt my personal mac using Ansible!" />
+    <meta property="twitter:title" content="Rebuilt my personal mac using Ansible!" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Scott Nasello - Engineering Manager" href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img src="https://pbs.twimg.com/profile_images/781898939465211904/zN--OuOh.jpg" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Scott Nasello</a></h1>
+            <p class="site-description">Engineering Manager</p>
+          </div>
+
+          <nav>
+            <a href="/">Blog</a>
+            <a href="/about">About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>Rebuilt my personal mac using Ansible!</h1>
+
+  <div class="entry">
+    <p>During my wife’s recent trip to the east coast I decided I would take my circa 2015 macbook and fully automate it and manage it with a configuration management software.  You  might want to know what kind of sick puppy would do this intentionally <strong>{me}</strong>.  Here was my thinking:</p>
+<ol>
+  <li>As a manager, I don’t get to do as much hands on work as I’d like</li>
+  <li>I’m frustrated by the config drift I have at home…everything is a snowflake</li>
+  <li>I wanted to learn <a href="https://learn.chef.io">CHEF</a> <strong>more on that later</strong></li>
+</ol>
+
+<p>Why CHEF? I wanted to use the same technology we use at work. Unfortunately, I did not find many <em>current</em> examples of folks using chef to manage their own personal machines. I did experiment with the excellent examples by <a href="https://github.com/jtimberman/workstation-chef-repo">jtimberman</a> and <a href="https://github.com/echohack/chef_desktop">echohack</a>, but in the case of Joshua’s repo, it hasn’t changed in about 5 years and echohack’s in a MVP.</p>
+
+<p>In the end, I found a ton of folks using Ansible for their daily drivers.  Since I’m relatively proficient with CHEF on Windows, I ventured into the unknown with Ansible/Mac <strong>(#GrowthMindset)</strong>.  I might make some new friends with our Networking team due to the python orientation of Ansible.</p>
+
+<p>I started out with <a href="https://blog.vandenbrand.org/2016/01/04/how-to-automate-your-mac-os-x-setup-with-ansible/">Richard van den Brand’s blog post</a> and particularly liked the simplicity and manipulation of OS X features such as the dock.  Ultimately I forked &amp; implemented <a href="https://github.com/geerlingguy/mac-dev-playbook">Jeff Geerling’s repo</a> as I preferred his organization and extendability.  With Jeff’s implementation you will really only need to modify the default.config.yml file.  I added a macbuild.sh to bootstrap my process.  This would enable me to manage the entire process even before homebrew/git were set up.</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>bash &lt;<span class="o">(</span>curl -Ls https://raw.githubusercontent.com/scottnasello/mac-dev-playbook/master/macbuild.sh<span class="o">)</span>
+</code></pre>
+</div>
+<p>The only pain point I never quite figured out was installing xcode…Although several folks provide methods to silently install, it never seemed to work for me on Sierra (10.12.5).</p>
+
+<p>I invested about 12 hours into this process and now my mac <strong>(this mac)</strong> is fully managed via my github repo and ansible.  Here’s a short video of the bootstrapping process (IRL: 15 minutes, condensed to 15 seconds)</p>
+
+<video src="/videos/ScottAnsible-final.mp4" width="640" height="400" controls="" preload=""></video>
+
+  </div>
+
+  <div class="date">
+    Written on July  9, 2017
+  </div>
+
+  
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+
+
+
+<a href="https://github.com/scottnasello"><i class="svg-icon github"></i></a>
+
+
+
+
+<a href="https://www.twitter.com/scottnasello"><i class="svg-icon twitter"></i></a>
+
+
+
+        </footer>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>

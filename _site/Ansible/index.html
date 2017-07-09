@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Rebuilt my personal mac using Ansible! – Scott Nasello – Engineering Manager</title>
+    <title>Using configuration management at home – Scott Nasello – Engineering Manager</title>
 
         <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -29,8 +29,8 @@
     <meta name="author" content="Scott Nasello" />
 
     
-    <meta property="og:title" content="Rebuilt my personal mac using Ansible!" />
-    <meta property="twitter:title" content="Rebuilt my personal mac using Ansible!" />
+    <meta property="og:title" content="Using configuration management at home" />
+    <meta property="twitter:title" content="Using configuration management at home" />
     
 
     <!--[if lt IE 9]>
@@ -63,8 +63,24 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <article class="post">
-  <h1>Rebuilt my personal mac using Ansible!</h1>
+       <meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@scottnasello">
+<meta name="twitter:creator" content="@scottnasello">
+
+  <meta name="twitter:title" content="Using configuration management at home">
+
+
+  <meta name="twitter:url" content="http://localhost:4000/Ansible/">
+
+
+  <meta name="twitter:description" content="Engineering Manager">
+
+
+  <meta name="twitter:image:src" content="http://localhost:4000/path/to/image/logo.png">
+
+ 
+<article class="post">
+  <h1>Using configuration management at home</h1>
 
   <div class="entry">
     <p>During my wife’s recent trip to the east coast I decided I would take my circa 2015 macbook and fully automate it and manage it with a configuration management software.  You  might want to know what kind of sick puppy would do this intentionally <strong>{me}</strong>.  Here was my thinking:</p>
@@ -76,7 +92,7 @@
 
 <p>Why CHEF? I wanted to use the same technology we use at work. Unfortunately, I did not find many <em>current</em> examples of folks using chef to manage their own personal machines. I did experiment with the excellent examples by <a href="https://github.com/jtimberman/workstation-chef-repo">jtimberman</a> and <a href="https://github.com/echohack/chef_desktop">echohack</a>, but in the case of Joshua’s repo, it hasn’t changed in about 5 years and echohack’s in a MVP.</p>
 
-<p>In the end, I found a ton of folks using Ansible for their daily drivers.  Since I’m relatively proficient with CHEF on Windows, I ventured into the unknown with Ansible/Mac <strong>(#GrowthMindset)</strong>.  I might make some new friends with our Networking team due to the python orientation of Ansible.</p>
+<p>In the end, I found a ton of folks using Ansible for their daily drivers.  Since I’m relatively proficient with CHEF on Windows, I ventured into the unknown with Ansible/Mac <strong>(#GrowthMindset)</strong>.  I might even make some new friends with our Networking team due to the python orientation of Ansible.</p>
 
 <p>I started out with <a href="https://blog.vandenbrand.org/2016/01/04/how-to-automate-your-mac-os-x-setup-with-ansible/">Richard van den Brand’s blog post</a> and particularly liked the simplicity and manipulation of OS X features such as the dock.  Ultimately I forked &amp; implemented <a href="https://github.com/geerlingguy/mac-dev-playbook">Jeff Geerling’s repo</a> as I preferred his organization and extendability.  With Jeff’s implementation you will really only need to modify the default.config.yml file.  I added a macbuild.sh to bootstrap my process.  This would enable me to manage the entire process even before homebrew/git were set up.</p>
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 100 day challenge
-excerpt: "My son "
+excerpt: Wanting to be a good team player, I accept the blank sheet and proudly proclaim "I will do 100 days of creative writing"...
 ---
 
 My son has completed a 100 day challenge several times with his Suzuki violin class.  Like many activies, repetition and a disciplined commitment are the cornerstone of aquiring new skills.  Violin is no different in this regard.  As an example, I've included the preface from Suzuki Violin Book 3.  I truly believe that Dr. Suzuki would have been fast friends with Dr. Carol Dweck (Growth Mindset researcher).
@@ -18,9 +18,9 @@ So...this is day 1 of a new habit.
 
 A have a few ideas for upcoming posts including:
 
-    1. Podcast series I love
-    2. Leadership, coaching, continous improvement
-    3. Possibly some Chili Dog reviews
+1. Podcast series I love
+2. Leadership, coaching, continous improvement
+3. Possibly some Chili Dog reviews
 
 As mentioned, I see so many parallels between the work many of us are doing to lead transformations and the writings of Dr. Shinichi Suzuki from 1951.  
 

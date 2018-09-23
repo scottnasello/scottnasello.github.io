@@ -14,13 +14,26 @@ Wanting to be a good team player and support my family, I accept the blank sheet
 
 As we walked out the door my wife says "Are you going to write short stories, haikus, and essays?"  I responded that I plan to work on blog posts everyday.  In the spirit of transparency, I'm not a blogger.  In fact, I can count on one hand how many blog posts I've written.  
 
-So...this is day 1 of a new habit. 
+So...this is day 1 of a new habit. **What am I expecting over the next 100 days?** Firstly, I'm hoping to write a bit each day.  I'm taking an "Agile" approach where I work towards a **Minimum Viable Product (MVP)** blog post and add a bit of refinement.  If I can ship 10-15 blog posts over the next 100 days I'll feel good.  I'm going to filling in the bubbles with one of 3 colors: 
+* Pink - MVP
+* Yellow - Refinement
+* Green - Done  
 
-A have a few ideas for upcoming posts including:
+![100 Days Challenge](/images/scotts100.jpg)
+
+Secondly, I want to have some fun with the process and maybe I find a new creative outlet.  
+
+I do have a few ideas for upcoming posts including: 
 
 1. Podcast series I love
 2. Leadership, coaching, continous improvement
 3. Possibly some Chili Dog reviews
+
+I'd love any feedback you may have about topics you'd like me to take on.
+
+Now back to the violin business that instigated this whole crazy idea...
+
+![100 Days Challenge](/images/juniorviolin.jpg)
 
 As mentioned, I see so many parallels between the work many of us are doing to lead transformations and the writings of Dr. Shinichi Suzuki from 1951.  
 

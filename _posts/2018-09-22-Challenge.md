@@ -35,11 +35,11 @@ Now back to the violin business that instigated this whole crazy idea...
 
 ![100 Days Challenge](/images/juniorviolin.JPG)
 
-As mentioned, I see so many parallels between the work many of us are doing to lead transformations and the writings of Dr. Shinichi Suzuki from 1951.  
+As mentioned, I see so many parallels between the work many of us are doing to lead transformations and the writings of Dr. Shinichi Suzuki.  I hope you are similarly inspired.
 
-## **SUZUKI PREFACE**
+## **Shinichi Suzuki, My Study of Violin Practice**
     
-TL;DR 
+**TL;DR** 
 * Ability is something that develops only after one has worked diligently
 * Study Daily without exception
 * Not to rush ahead, but to dedicate oneself to attaining excellent tone

@@ -33,7 +33,7 @@ I'd love any feedback you may have about topics you'd like me to take on.
 
 Now back to the violin business that instigated this whole crazy idea...
 
-![100 Days Challenge](/images/juniorviolin.jpg)
+![100 Days Challenge](/images/juniorviolin.JPG)
 
 As mentioned, I see so many parallels between the work many of us are doing to lead transformations and the writings of Dr. Shinichi Suzuki from 1951.  
 

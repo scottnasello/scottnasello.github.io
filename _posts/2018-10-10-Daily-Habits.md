@@ -41,7 +41,7 @@ Yes I know that it is really named P90X ... I had been diligently completing the
 
 ![100 Days Challenge](/images/p90x.png)
 
-In my defense I didn't really set myself up set up for success.  For whatever reason my wife and I decided to work out after dinner.  In some cases we started at 8:30 or 9:00.   Frankly, I'm surprised we made it as far as we did because who has energy for a bunch of nonsense right before bed?  
+In my defense I didn't really set myself up for success.  For whatever reason my wife and I decided to work out after dinner.  In some cases we started at 8:30 or 9:00. Yes PM.  Frankly, I'm surprised we made it as far as we did because who has energy for a bunch of nonsense right before bed?  
 
 All lasting habits generally have a reward and there just wasn't much time to enjoy finishing a workout because it was time to go to bed (and do it all over again).
 

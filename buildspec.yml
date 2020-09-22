@@ -5,6 +5,8 @@ phases:
     runtime-versions:
       ruby: 2.6
     commands:
+      - ruby -v
+      - gem env
       - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist jekyll-feed
   build:
     commands:

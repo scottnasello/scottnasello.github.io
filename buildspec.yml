@@ -1,21 +1,20 @@
 version: 0.2
-   
+
 phases:
   install:
     runtime-versions:
-      ruby: 2.6
-    commands:
-      - rvm install 2.6.1 
-      - rvm use 2.6.1 --default
-      - ruby -v
-      - gem env
-      - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist jekyll-feed
+      ruby: latest
   build:
     commands:
+      - ruby -v
+      - gem env    
+      - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist jekyll-feed
       - echo "******** Building Jekyll site ********"
       - jekyll build
       - echo "******** Uploading to S3 ********"
       - aws s3 sync _site/ s3://www.scottnasello.org
+      - ruby -v
+      - gem env      
   post_build:
     commands:
       - aws cloudfront create-invalidation --distribution-id "E1M7H4NXNTK35Y" --paths "/*"

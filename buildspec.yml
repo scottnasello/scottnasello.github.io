@@ -5,6 +5,8 @@ phases:
     runtime-versions:
       ruby: 2.6
     commands:
+      - rvm install 2.6.1 
+      - rvm use 2.6.1 --default
       - ruby -v
       - gem env
       - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist jekyll-feed

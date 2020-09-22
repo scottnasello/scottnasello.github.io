@@ -2,6 +2,8 @@ version: 0.1
    
 phases:
   install:
+    runtime-versions:
+      ruby: latest  
     commands:
       - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist jekyll-feed
   build:

@@ -8,7 +8,7 @@ excerpt: "Systems are all around us."
 
 During a recent meeting I was sharing the typical age of workarounds we use to support digital order flow with an audience of senior leaders.  I wanted to bring visibility to the issue and build enthusiasm to eliminate these longstanding workarounds.  Unfortunately, the discussion went sideways into a discussion about organizational staffing levels.  Not only wasn't I successful in conveying why workarounds are so damaging, I also didn't do a great job of introducing systems thinking to these leaders.  This blog post is my "do-over" for why systems thinking matters and how it can help to make you a better engineer or leader.
 
-## 10 Reasons to learn about systems thinking
+## Reasons to learn about systems thinking 
 1) Systems Thinking can be seen in many other movements such as: OKRs, Chaos Engineering, DevOps, Theory of Constraints, and Just culture
    * ***Objectives and key results (OKR)*** is a goal-setting framework for defining and tracking objectives and their outcomes.  Because Systems Thinking is concerned with the outcomes and behaviors of systems via the pursuit of goals and purposes, Systems thinking may be a powerful tool in your toolbox to help you establish and achieve your OKRs.
    * ***Chaos Engineering*** acknowleges that our systems are complex and ever-changing and we likely don't really know how these systems will behave under a variety of circumstances. With chaos engineering we can build experiments to gain insights into how our systems behave as well as create confidence that our systems can withstand unexpected conditions.  Netflix made chaos engineering famous via their [simian army](https://netflixtechblog.com/the-netflix-simian-army-16e57fbab116). 
@@ -18,20 +18,24 @@ During a recent meeting I was sharing the typical age of workarounds we use to s
         > The Second Way is about creating the right to left feedback loops. The goal of almost any process improvement initiative is to shorten and amplify feedback loops so necessary corrections can be continually made.
 
         > The Third Way is about creating a culture that fosters two things: continual experimentation, taking risks and learning from failure; and understanding that repetition and practice is the prerequisite to mastery.
-   * Theory of Constraints
-   * Just culture 
+   * ***Theory of Constraints (TOC)*** is the management practice that is looking to optimize throughput of a system using 5 focusing steps to alleviate temporary production issues upstream of the proscribed bottleneck.  Both Systems Thinking and TOC require analysts to spend considerable time observing the whole system and the system's behavior to form hypotheses about what changes to make. 
+   * ***Just culture*** is part of a growing movement that is related to safety culture or high reliability organizatons that see the systems that we build as being primarily culpable for failures.  Practicitoners are applying systems thinking to identify latent factors that may be undermining system's behvior or outcomes.  
 2) Misbehaving systems are all around us
-3) Understanding the role of hiearchies versus the overall system
+3) Understanding the role that ***hierarchies*** play within the overall system. For example, If subsystems dominate, we may encounter "local optimization" and the overall system may not achieve it's purpose.  If the overall system dominates, then subsystems may not be able to evolve to meet changing circumstances. A balance between the two perspectives is necessary as noted here:
+   > "Keeping sub-purposes and overall system purposes in harmony is an essential function of successful systems" Meadows, Donella H.. Thinking in Systems
+
+   > "To be a highly functional system, hierarchy must balance the welfare, freedoms, and responsibilities of the subsystems and total system—there must be enough central control to achieve coordination toward the large-system goal, and enough autonomy to keep all subsystems flourishing, functioning, and self-organizing." Meadows, Donella H.. Thinking in Systems 
+
 4) Nearly all system issues can be explained by one or more "archetypes"
 5) Systems Thinking can help engineers and leaders understand and anticipate system design issues
 6) Working with complex systems
 7) Understanding why workarounds suboptimize systems in the long run
 
-## Applied example : Shifting the Burden
+## Applied example : Shifting the Burden - the danger of workarounds
 
 ## Resources
-* 5 min video
+* I really like this very brief [introduction to Systems Thinking](https://youtu.be/Miy9uQcwo3U) that compares the study of decomposed parts (analysis) with the study of interconnections and interactions to understand the whole (synethesis). 
 * Theory of Organization Success
 * Thinking in Systems
-* Biggest Little Farm
+* One of my family's favorite movies is the Biggest Little Farm that tells the story of a couple looking to build a thriving farm with many many species versus the monoculture that is so prevalent in the world.  This [trailer](https://youtu.be/E0SsZIDJ0O0) should give you an appreciation for the story and the challenges encoutered on the journey.  As you will discover if you watch the movie, this is a real world application of systems thinking and the how they had to find the equilibrium in the system versus optimizing the parts.
 * The High Velocity Edge
